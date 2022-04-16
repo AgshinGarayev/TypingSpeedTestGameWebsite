@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #56ccf2, #2f80ed); 
+
+
+
+}
+    nav{
+        color:black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        background: rgba(0,140,186,255);
+        font-family: 'Urbanist', sans-serif;
+        
+
+    }
+
+
+    .Logo a{
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-right: 100px;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+
+
+
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        margin-right: 150px;
+        
+    }
+
+    .nav-links li{
+        list-style-type: none;
+
+    }
+        
+    
+
+    .nav-links a{
+        color:rgb(255, 255, 255) ;
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .LoginAndRegister{
+        display: flex;
+        
+    }
+
+    /* 
+    
+    .Login a{
+        background-color: rgba(0,140,186,255) ;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: bold;
+        width: 30%;
+        margin-right: 3px;
+        text-decoration: none;
+
+    }
+    
+    */
+
+    .Login a{
+        background-color: black;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-right: 3px;
+        text-decoration: none;
+        width: 160px;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 30px;
+        cursor: pointer;
+        
+    }
+
+
+
+    .Register a{
+        background-color: rgba(0,140,186,255);
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        width: 160px;
+        margin-right: 0px;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+
+}
+
+
+section{
+ 
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+}
+
+
+footer{
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: #111;
+height: auto;
+width: 100svw;
+font-family: "Open Sans";
+padding-top: 0px;
+color: #fff;
+}
+.footer-content{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+/* .footer-content h3{
+font-size: 1.8rem;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 3rem;
+}
+.footer-content p{
+max-width: 500px;
+margin: 10px auto;
+line-height: 28px;
+font-size: 14px;
+}
+.socials{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1rem 0 3rem 0;
+}
+.socials li{
+margin: 0 10px;
+}
+.socials a{
+text-decoration: none;
+color: #fff;
+}
+.socials a i{
+font-size: 1.1rem;
+transition: color .4s ease;
+
+}
+.socials a:hover i{
+color: aqua;
+} */
+
+.footer-bottom{
+background: #000;
+width: 100vw;
+padding: 20px 0;
+text-align: center;
+}
+
+.footer-bottom span{
+text-transform: uppercase;
+opacity: .4;
+font-weight: 200;
+}
+ 
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.container a{
+    background-color: rgba(255,77,6,255);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    border-radius: 0 0 15px 15px ;
+    margin-top: 115px;
+    padding: 20px;
+    
+}
+
+.card{
+    background: white;
+    color: black;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    width: 270px;
+    height: 400px;
+    margin: 60px;
+    border-radius: 15px;
+}
+.card-image{
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.card:hover{
+    cursor: pointer;
+    transform:scale(1.03);
+    transition: all is ease;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
